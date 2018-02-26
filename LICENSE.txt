@@ -1,5 +1,10 @@
 The MIT License (MIT)
 
+Copyright (c) 2018-2019 AtSistemas
+
+The original work is granted to Monterail.com
+This work is forked from Monterail's project with license:
+
 Copyright (c) 2013-2014 Monterail.com LLC
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of
