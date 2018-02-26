@@ -1,4 +1,8 @@
-# Angular based datepicker with mighty options
+# NOTICE
+
+Forked project
+
+# Angular based datepicker with mighty options (with out of month functionality)
 
 ## Documentation and demo
 [http://monterail.github.io/angular-mighty-datepicker/](http://monterail.github.io/angular-mighty-datepicker/)
