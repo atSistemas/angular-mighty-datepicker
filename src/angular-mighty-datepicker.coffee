@@ -22,7 +22,8 @@ angular.module("mightyDatepicker", [ ]).directive "mightyDatepicker", ["$compile
                   "mighty-picker-calendar__day--selected": day.selected,
                   "mighty-picker-calendar__day--disabled": day.disabled,
                   "mighty-picker-calendar__day--in-range": day.inRange,
-                  "mighty-picker-calendar__day--marked": day.marker
+                  "mighty-picker-calendar__day--marked": day.marker,
+                  "mighty-picker-calendar__day--out-of-month": day.outOfMonth
                 }'
                 ng-repeat="day in ::week track by $index" ng-click="select(day, $event)">
                 <div class="mighty-picker-calendar__day-wrapper">
@@ -120,6 +121,7 @@ angular.module("mightyDatepicker", [ ]).directive "mightyDatepicker", ["$compile
         inRange: _isInRange(day)
         disabled: !(withinLimits && withinMonth && filter)
         marker: _getMarker(day) if withinMonth
+        outOfMonth: !withinMonth
       days
 
     _buildMonth = (time) ->
