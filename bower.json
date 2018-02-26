@@ -1,14 +1,18 @@
 {
-  "name": "angular-mighty-datepicker",
+  "name": "angular-mighty-datepicker-with-out-of-month",
   "version": "0.1.4",
   "authors": [
+    "Jesús González Jaén <jgonzalez.jaen@atsistemas.com>",
     "Krzysztof Jung <krzysztof.jung@monterail.com>",
     "Patryk Peas <patryk.peas@monterail.com>",
     "Kamil Nicieja <kamil.nicieja@monterail.com>",
     "Bartosz Erbert <bartosz.erbert@monterail.com>"
   ],
-  "repository": "git://github.com/monterail/angular-mighty-datepicker.git",
-  "description": "Angular based datepicker with mighty options",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/atSistemas/angular-mighty-datepicker.git"
+  },
+  "description": "Monterail angular-mighty-datepicker fork: Angular based datepicker with mighty options: with out of month class",
   "main": [
     "build/angular-mighty-datepicker.js",
     "build/angular-mighty-datepicker.css"
@@ -19,5 +23,5 @@
     "moment-range": "~1.0.1"
   },
   "license": "MIT",
-  "homepage": "http://github.com/monterail/angular-mighty-datepicker"
+  "homepage": "https://github.com/atSistemas/angular-mighty-datepicker"
 }
