@@ -64,7 +64,7 @@
               withinLimits && (withinLimits = day.isSameOrBefore($scope.before, 'day'));
             }
             if ($scope.after) {
-              withinLimits && (withinLimits = day.isSameOrAfter($scope.after, 'day'));
+              withinLimits && (withinLimits = day.isAfter($scope.after, 'day'));
             }
             return withinLimits;
           };
