@@ -82,7 +82,7 @@
               case "multiple":
                 return _indexOfMoment($scope.model, day, 'day') > -1;
               default:
-                return $scope.model && day.isSame($scope.model, 'day');
+                return moment().diff($scope.model, 'days') !== 0 && $scope.model && day.isSame($scope.model, 'day');
             }
           };
           _isInRange = function(day) {
